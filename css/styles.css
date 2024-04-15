@@ -10797,3 +10797,10 @@ header.masthead .post-heading .meta a {
   }
 }
 
+/* Adds */
+
+
+.fs-nav{
+  font-size: 0.62rem !important;
+  font-weight: 500 !important;
+}

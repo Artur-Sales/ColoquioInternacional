@@ -14,24 +14,49 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- JQuery -->
+        <script src="js/jquery-3.7.1.min.js"></script>
+        
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
+            <div class="container px-4 px-lg-5 ">
                 <a class="navbar-brand" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse text" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Introdução</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="P1.html">Painel 1</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="P2A.html">Painel 2A</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="P2B.html">Painel 2B</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="P3.html">Painel 3</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Comissões</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="about.html">Introdução</a></li>
+                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Organização</a>
+                            <ul class="dropdown-menu rounded">
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="CO.html">  Comissão Organizadora</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="CE.html">Comissão Executiva</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="CC.html">Comissão Científica</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Chamada de Trabalhos</a>
+                            <ul class="dropdown-menu  rounded">
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="P1.html">Painel 1</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="P2.html">Painel 2</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="P3.html">Painel 3</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav" href="P4.html">Painel 4</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 disabled fs-nav" href="#">Submissão de propostas (disponível brevemente)</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Participação</a>
+                            <ul class="dropdown-menu  rounded">
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item disabled fs-nav" href="#">Inscrição e pagamento (disponível brevemente)</a></li>
+                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item disabled fs-nav" href="#">Informações e acolhimento (disponível brevemente)</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="#">PROGRAMA</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="#">DATAS IMPORTANTES</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="#">INFORMAÇÃO ÚTIL</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="contactos.html">CONTACTOS</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,7 +96,7 @@
                     <hr class="my-4" />
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="P2A.html"><h2 class="post-title">Painel 2A - 
+                        <a href="P2A.html"><h2 class="post-title">Painel 2 - 
                             Ecologia linguística e cultural de Angola: heterogeneidade, comunicação e identidade
                             </h2> <h3 class="post-subtitle">Paulo Osório, Margarida Petter, João Ima-Panzo</h3></a>
                         <p class="post-meta">
@@ -83,7 +108,7 @@
                     <!-- Post preview-->
                     <div class="post-preview">
                         <a href="P2B.html">
-                            <h2 class="post-title">Painel 2B - 
+                            <h2 class="post-title">Painel 3 - 
                                 Línguas em Moçambique volvidos 50 anos de independência: história, língua(gens) e políticas linguísticas
                             </h2>
                             <h3 class="post-subtitle">Ezra Chambal Nhampoca, Cristine Gorski Severo, Sóstenes Valente Rego</h3>
@@ -97,7 +122,7 @@
                     <!-- Post preview-->
                     <div class="post-preview">
                         <a href="P3.html">
-                            <h2 class="post-title">Painel 3 - 
+                            <h2 class="post-title">Painel 4 - 
                                 Pluricentrismo linguístico do português: repensar a língua portuguesa e o português de Portugal 
                                 </h2>
                             <h3 class="post-subtitle">Maria do Céu Fonseca, Marcelo Módolo, Gonçalo Fernandes</h3>
@@ -131,7 +156,7 @@
                                 <img src="assets/img/FCT.jpg" alt="" class="img-thumbnail">
                             </div>
                         </div>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Artur Sales | Powered by <a href="https://startbootstrap.com/theme/clean-blog">Clean Blog Template</a>/div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Artur Sales | Powered by <a href="https://startbootstrap.com/theme/clean-blog">Clean Blog Template</a></div>
                     </div>
                 </div>
             </div>
