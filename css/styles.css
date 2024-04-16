@@ -10801,10 +10801,21 @@ header.masthead .post-heading .meta a {
 
 
 .fs-nav{
-  font-size: 0.62rem !important;
+  font-size: 0.75rem !important;
   font-weight: 500 !important;
+}
+
+.fs-nav-dd{
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
 }
 
 .fs-title{
   font-size: 1.8rem !important;
 }
+
+.logo{
+  width: 100% !important;
+  height: 100% !important;
+}
+
