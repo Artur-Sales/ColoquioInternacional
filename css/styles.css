@@ -10752,9 +10752,10 @@ header.masthead .post-heading .meta a {
 }
 
 .section-heading {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 600;
   margin-top: 3.75rem;
+  font-style: italic;
 }
 
 .caption {
@@ -10799,6 +10800,9 @@ header.masthead .post-heading .meta a {
 
 /* Adds */
 
+.fs-bold{
+  font-weight: 650;
+}
 
 .fs-nav{
   font-size: 0.75rem !important;
@@ -10818,4 +10822,3 @@ header.masthead .post-heading .meta a {
   width: 100% !important;
   height: 100% !important;
 }
-

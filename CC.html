@@ -14,54 +14,20 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- JQuery -->
+        <script src="js/jquery-3.7.1.min.js"></script>
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5 ">
-                <a class="navbar-brand" href="index.html">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse text" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="about.html">Introdução</a></li>
-                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Organização</a>
-                            <ul class="dropdown-menu rounded">
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="CO.html">Comissão Organizadora</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="CE.html">Comissão Executiva</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="CC.html">Comissão Científica</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Chamada de Trabalhos</a>
-                            <ul class="dropdown-menu  rounded">
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="P1.html">Painel 1</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="P2.html">Painel 2</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="P3.html">Painel 3</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd" href="P4.html">Painel 4</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 disabled fs-nav-dd" href="#">Submissão de propostas (disponível brevemente)</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Participação</a>
-                            <ul class="dropdown-menu  rounded">
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item disabled fs-nav-dd" href="#">Inscrição e pagamento (disponível brevemente)</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item disabled fs-nav-dd" href="#">Informações e acolhimento (disponível brevemente)</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown" ><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-toggle fs-nav" href="#" role="button" data-bs-toggle="dropdown">Informação</a>
-                            <ul class="dropdown-menu  rounded">
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd disabled" href="#">Programa (disponível brevemente)</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd disabled" href="#">Datas importantes (disponível brevemente)</a></li>
-                                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 dropdown-item fs-nav-dd disabled" href="#">Informação útil (disponível brevemente)</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 fs-nav" href="contactos.html">CONTACTOS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
@@ -111,26 +77,15 @@
             </div>
         </main>
         <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="row">
-                            <div class="col">
-                                <img src="assets/img/CESA.png" alt="CESA" class="img-thumbnail logo">
-                            </div>
-                            <div class="col">
-                                <img src="assets/img/CEAUP.jpg" alt="CEAUP" class="img-thumbnail logo">
-                            </div>
-                            <div class="col">
-                                <img src="assets/img/CEL.png" alt="CEL" class="img-thumbnail logo">
-                            </div>
-                        </div>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Artur Sales | Powered by <a href="https://startbootstrap.com/theme/clean-blog">Clean Blog Template</a></div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <div id="footer-placeholder">
+
+        </div>
+        
+        <script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
