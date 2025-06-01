@@ -10822,3 +10822,13 @@ header.masthead .post-heading .meta a {
   width: 100% !important;
   height: 100% !important;
 }
+
+.white-download-hover{
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+white-download-hover:hover{
+  color: lightblue;
+  transition: 0.1s ease-in-out;
+}
